@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1024px) {
+  .mapa {
+    height: 600px;
+  }
+
+  li a {
+ 
+    background-color: $bg-dor;
+    margin: 2px;
+  }
+
+  li a:hover {
+    
+    background-color: map-get($estilos, ColorOro);
+    
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .mapa {
+    height: 300px;
+  }
+
+  li a {
+
+
+    background-color:map-get($estilos, ColorOro2);
+
+    margin: 2px;
+  }
+
+  li a:hover {
+    background-color: map-get($estilos, colorPincipal);
+    color: black;
+  }
+
+  
+  
+
+}
